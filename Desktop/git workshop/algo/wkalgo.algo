@@ -1,0 +1,19 @@
+
+ALGORITHM calcul
+VAR
+ch : STRING;
+nbchar,nbmot,nbvoyelle,i: INTEGER;
+BEGIN
+IF (i<=lenght[ch]) THEN
+ch:=ch+1;
+Write(ch)
+END_IF
+IF (i<=lenght[ch] and ch[i]=" ") THEN
+    nbmot:=nbmot+1;
+    Write(nbmot)
+END_IF
+IF (i<=lenght[ch] and (ch[i]="a" or ch[i]="e" or ch[i]="i" or ch[i]="o" or ch[i]="u" or ch[i]="y")) THEN
+    nbvoyelle:=nbvoyelle+1
+    Write(nbvoyelle)
+END_IF
+END
